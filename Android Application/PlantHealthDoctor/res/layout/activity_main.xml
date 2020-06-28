@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button"
+        style="@style/MaterialComponents.Button.MyButton2"
+        android:layout_width="298dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="350dp"
+        android:onClick="doSomething2"
+        android:text="Retrieve Plant Diagnostics"
+        android:textAppearance="@style/TextAppearance.MyApp.Body1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/viewHistory"
+        style="@style/MaterialComponents.Button.MyButton2"
+        android:layout_width="298dp"
+        android:layout_height="32dp"
+        android:onClick="doSomething2"
+        android:text="View Plant History"
+        android:textAppearance="@style/TextAppearance.MyApp.Body1"
+        app:layout_constraintBottom_toTopOf="@+id/logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logout"
+        style="@style/MaterialComponents.Button.MyButton"
+        android:layout_width="240dp"
+        android:layout_height="32dp"
+        android:layout_alignEnd="@+id/button"
+        android:layout_marginBottom="32dp"
+        android:onClick="logout"
+        android:text="Logout"
+        android:textAppearance="@style/TextAppearance.MyApp.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewHistory" />
+
+    <ImageView
+        android:id="@+id/plant_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221"
+        app:srcCompat="@drawable/plant_logo" />
+
+    <ImageView
+        android:id="@+id/oval1"
+        android:layout_width="300dp"
+        android:layout_height="320dp"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016"
+        app:srcCompat="@drawable/new_oval" />
+
+    <ImageView
+        android:id="@+id/oval2"
+        android:layout_width="300dp"
+        android:layout_height="320dp"
+        android:rotation="25"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016"
+        app:srcCompat="@drawable/new_oval" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
