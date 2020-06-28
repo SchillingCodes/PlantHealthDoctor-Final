@@ -1,4 +1,9 @@
 # PlantHealthDoctor-Final
+Repository for my work in buidling the Plant Health Doctor application for FAU's Senior Design class.
+All work is my own, except where listed in the credits.
+This project was awarded the People's Choice Award and the Judge's Choice Award at the Fall 2019 senior design showcase.
+Full documentation of the project can be found in the Documentation folder.
+I started this project as an amateur in Android programming, machine learning, and bluetooth sensor communication.
 
 ## FOLDERS:
 #### 1. 3D Housing Design
