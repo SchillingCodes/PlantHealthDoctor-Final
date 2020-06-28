@@ -6,7 +6,7 @@ This project was awarded the People's Choice Award and the Judge's Choice Award 
 
 Full documentation of the project can be found in the Documentation folder.
 
-I started this project as an amateur in Android programming, machine learning, and bluetooth sensor communication.
+I started this project as an amateur in Android programming, machine learning, AWS SageMaker, and bluetooth sensor communication.
 
 ## FOLDERS:
 #### 1. 3D Housing Design
